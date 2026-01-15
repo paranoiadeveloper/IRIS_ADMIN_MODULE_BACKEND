@@ -1,0 +1,184 @@
+@font-face {font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.woff2') format('woff2'),url('../fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+@font-face {font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+@font-face {font-family: 'latoheavy';
+    src: url('../fonts/lato-heavy-webfont.woff2') format('woff2'),url('../fonts/lato-heavy-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+@font-face {font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+@font-face {font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+@font-face {font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'),url('../fonts/lato-semibold-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+@font-face {font-family: 'latothin';
+    src: url('../fonts/lato-thin-webfont.woff2') format('woff2'),url('../fonts/lato-thin-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;}
+    
+.container1158{max-width:1200px;width:100%;}
+.reset-padding{padding:0px !important;}
+.reset-margin{margin:0px !important;}
+.col{float:left;}
+.tab-content{padding-top:20px;}
+#reportPage .table{width:80%;}
+#acc_tab .nav li a{font-size:13px;padding:10px 9px;}
+#reportPage .leftBlock{font-size:15px;}
+#reportPage .td2{font-size:17px;color:#333;}
+.col-level1{margin-bottom:15px;}
+.lt-sideBar{background:#dfe6de;padding:15px 0 25px 15px;background:-webkit-box-shadow: 10px 10px 5px -6px rgba(45,45,45,1);
+-moz-box-shadow: 10px 10px 5px -6px rgba(45,45,45,1);
+box-shadow: 10px 10px 5px -6px rgba(45,45,45,1);border:1px solid #2d2d2d;}
+#acc_tab{background:#dfe6de;background:-webkit-box-shadow: 10px 10px 5px -6px rgba(45,45,45,1);
+-moz-box-shadow: 10px 10px 5px -6px rgba(45,45,45,1);
+box-shadow: 10px 10px 5px -6px rgba(45,45,45,1);border:1px solid #2d2d2d;}
+.col span:first-child{font-weight:normal;}
+.report-title{background:linear-gradient(#444, #111);color:#fafafa;text-transform: uppercase;font: bold 13px Arial, Helvetica;text-shadow: 0 1px 0 #000;padding-top:15px;padding-bottom:15px;}
+#reportPage .nav-tabs > li.active > a, #reportPage .nav-tabs > li.active > a:focus, #reportPage .nav-tabs > li.active > a:hover{border-bottom-color:transparent !important;border:1px solid #757575;}
+#reportPage .nav-tabs{border-bottom:1px solid #757575;} 
+#reportPage table tr td{border:1px solid #757575;font-size:15px;font-weight:normal;}
+#acc_tab{padding-bottom:50px;}
+#head{font-size:17px;}
+#reportPage a{color:#3172b8; }
+.dateBox{max-width:200px;width:100%;}
+#scroll-y{overflow-y:scroll;height:800px; -webkit-box-shadow: 9px 0px 30px 4px rgba(192,192,192,1);
+-moz-box-shadow: 9px 0px 30px 4px rgba(192,192,192,1);
+box-shadow: 9px 0px 30px 4px rgba(192,192,192,1);}
+#head{font-weight:bold !important;letter-spacing:1px;}
+#docname{border:1px solid #000;}
+.fab {width: 60px;height: 60px;background:linear-gradient(#444, #111);border-radius: 3px;box-shadow: 0 6px 10px 0 #666;transition: all 0.1s ease-in-out;font-size: 20px;
+   color: white;text-align: center;line-height: 70px;position: fixed;right: 50px;bottom: 50px;z-index:999;padding-top:7px;text-decoration:none;}
+.fab:hover {box-shadow: 0 6px 14px 0 #666;transform: scale(1.05);color:#fff;text-decoration:none;}
+a.fab:focus, a.fab:hover{color:#fff;text-decoration:none;}
+.tooltip{display:none !important;}
+
+.image{width: 80px;border-radius: 50%;vertical-align: bottom !important;border: 3px solid #fff;box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.2);}
+#dr_home .round_title{border:1px solid #969696;border-radius:21px;color:#969696;font-size:16px;font-family:latosemibold;padding: 4px 20px;margin:10px 0px 15px 0px;
+display:inline-block;}
+#dr_home .dr_name{font-size:18px;font-family:latosemibold;color:#6c6c6c;}
+#dr_home .dr_post{font-size:13px;font-family:latosemibold;color:#6c6c6c;}
+#nav-info a{display:inline-block;width:100%;padding:10px 0px;font-size:13px;font-family:latoheavy;color:#7a7a7a;}
+#dr_home  .left-side{background:#fff;}
+#nav-info a span{margin-right:12px;}
+#nav-info a:hover{color:#3172b8;text-decoration:none;}
+#consultants{background-image: url(../images/ultrasound2.jpg);background-size:cover;background-repeat:no-repeat;}
+#frontDesk .overlay{background:rgba(1,216,218,0.3);display:inline-block;}
+#consultants .overlay{/* background:rgba(1,216,218,0.3); */display:inline-block;width:100%;height:100%;}
+#consultants .first-block{background:#3172b8;padding-top:16px;padding-bottom:16px;}
+.f21{font-size:21px;}
+#consultants .fontIcon{color:#fff;}
+#consultants .fontTitle{color:#fff;font-family: 'latobold';}
+
+input.search-query {
+   border-radius:21px;border:1px solid #fff;background:none;
+}
+input.search-query.form-control:focus{background:none;border:1px solid #fff;/* box-shadow:none; */}
+.form-search {
+    position: relative;
+}
+.searchIcon{position:absolute;top:0px;right:6%;padding-top:10px;color:#fff;}
+/* .form-search:before {
+    content:'';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+} */
+
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+ .search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+}
+.search-query::placeholder {
+    color: #fff;
+}
+
+.search-query:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+.search-query::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+.font4{font-size:12px;color:#fffefe;font-family: 'latoregular';}
+.font4 a{font-size:15px;color:#fffefe;padding:15px;}
+.font4 a:hover{color:#fff;}
+.font4 .fbhover:hover{color:#3b5998;}
+.font4 .twthover:hover{color:#00aced;}
+.font4 .linkHover:hover{color:#0d77b7;}
+#dr_home .mainTitle{font-size:19px;color:#6c6c6c;font-family:latobold;}
+.patientInfo .pat_title{font-size:16px;/* color:#01d8da; */font-family:latobold;padding:30px;text-transform:uppercase;display:inline-block;width:100%;color:#545454;}
+#dr_home .patientInfo{background:#fff;padding:0px 0px 30px 0px;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);height:455px;overflow-y:scroll;}
+#dr_home .brTop{border-top:1px solid #ecebeb;}
+#dr_home .pt_name{font-size:18px;color:#7a7a7a;font-family:latosemibold;}
+/* #dr_home .pt_age{font-size:14px;color:#7a7a7a;font-family:latosemibold;} */
+#dr_home .pt_age{font-size:14px;color:#7a7a7a;font-family:latosemibold;}
+#dr_home .pt_name:hover{text-decoration:none;color:#01d8da;}
+#colo{font-size:18px;color:#7a7a7a;font-family:latosemibold;padding-left:15px;display:inline-block;text-align:center;width:100%;}
+.rounded-circle{border-radius:50%;}
+.imgWidth{width:50px;height:50px;}
+
+
+#front-home .bgDesign{background-color:#b4d8ff;border-radius:8px;box-shadow:box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);}
+#front-home .formInfo{border:1px solid #b3b3b3;border-radius:8px;margin-top:15px;}
+#my_camera{border:1px solid #c2c2c2;background:#ececca;}
+
+.hBar {
+    width: 100%;
+    max-width: 72px;
+    height: 3px;
+    background: #3172b8;
+    text-align: center;
+    margin: 0 auto;
+    display: block;margin-top:3px;
+}
+
+
+#consultants,#consultants .overlay,#dr_home .left-side{
+/* height:100vh; */
+min-height:100vh;
+}
+
+/* pettty cash */
+.container500{max-width:500px;width:100%;}
+.container550{max-width:600px;width:100%;}
+
+/* front desk */
+.frdTitle{background:#0cb5b8;color:#fff;}
+#scrollable #sortable li{display:inline-block;width:100%;}
+/* #sortable li:first-child .rightSide .nurse{color:green;} */
+#sortable li .rightSide .nurse{color:#bdbdbd }
+.dr_info a:hover{color:#6c6c6c}
+#sortable .dr_info a{color:#000;}
+/* #sortable{border:1px solid #000;} */
+  
+#queue .header{background:#01d8da;}   
+#queue .qBr{border:1px solid #ddd;-moz-box-shadow: 0 0 5px #999;
+-webkit-box-shadow: 0 0 5px #999;
+box-shadow: 0 0 5px #999;}
+#queueInner{margin:20px 0px;}
+#queue .tctNo{font-size:30px;padding:10px 0px;}
+#queue .patientName{font-size:20px;letter-spacing:1px;}
+#queue .consultNum{font-size:100px;color:#ff0000}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#dr_home .form-search .glyphicon-search{top:10px !important;}
+}

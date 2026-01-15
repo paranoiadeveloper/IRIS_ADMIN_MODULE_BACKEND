@@ -1,0 +1,256 @@
+<style type="text/css">
+
+/*------------FONT's----------------
+Style regarding the fonts used in the page 
+can be edited here (do not change)
+*/
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+	text-align:left;
+}
+/*------------FONT'S --------------*/
+
+
+/*--------------FORMS --------------*/
+/*--Text box's which are used in the project
+takes style from this code. ---*/
+.text_bx{                           
+	width:200px;
+	height: 20px;
+	border: 1px solid  #666;
+    border-radius: 3px;
+}
+/*-Text box on click colour and animations
+can be set here-*/
+.text_bx:focus {					
+	background-color: #D7FFFF;
+}
+#text_dd{                           
+	width:200px;
+	height: 20px;
+	border: 1px solid  #666;
+    border-radius: 3px;
+}
+/*-Text box on click colour and animations
+can be set here-*/
+#text_dd:focus {					
+	background-color: #D7FFFF;
+}
+
+/*------------DISCRIPTION FORM -------------
+Discription box's which are used in the project
+takes style from this code. ---*/
+.disc_bx{							
+	width:200px;
+	height: 100px;
+	border: 1px solid  #666;
+    border-radius: 3px;
+}
+/*-Discription box on click colour and animations
+can be set here-*/
+.disc_bx:focus {					
+    background-color: #D7FFFF;
+
+}
+/*------------FORMS ----------------*/
+
+
+
+/*------------HEADER (Do not edit)----------------*/
+/*--Head height, colour and bg image are defined her
+changing the BG can be chnaging the image with height
+120 px--*/
+.head_top {
+  transition: 0.4s;
+  height:140px;
+  background:#B3B3B3;
+  background-image:url(images/bg.png);
+
+}
+/*--Logo can be changed by changing the PNG file 
+size W:400px, H:120px --*/
+#left {
+    float:left;
+    width:500px;
+    height: 120px;
+}
+/*--right side image can be changed by changing 
+the PNG file size W:500px, H:120px --*/
+#right {
+    float:right;
+    width:500px;
+    height: 120px;
+	background-image: url(images/rite.png);
+}
+/*------------HEADER(Do not edit)----------------*/
+
+
+
+/*------------MAIN MENU (Do not edit)------------*/
+/*--Main Menu BG colour, height can be
+edited here --*/
+#nav-3 {
+  background: #3172B8;
+  text-align: left;
+  height:30px;
+  padding-top:8px;  
+}
+/*--Main Menu link colour and alignment 
+can be changed here. --*/
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+/*--Main Menu link hover colour and alignment 
+can be changed here. --*/
+.link-3:hover {
+  background-color: #ffffff;
+  color: #585858;
+  padding: 8px 10px;
+}
+/*------------NAVIGATION----------------*/
+
+
+/*------------FOOTER----------------*/
+/*--Footer div is managed by this content 
+the size and colour can be edited here--*/
+
+.footer {
+  transition: 0.4s;
+  position: fixed;
+  bottom: 8px;
+  height: 30px;
+  background-color: #999;
+  width: 99%;
+  padding-top:20px;
+  text-align:center;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:small;
+  font-weight:lighter;
+  color: #CCC;
+}
+/*------------FOOTER----------------*/
+
+
+/*------------MAIN CONTENT CONTAINER----------------*/
+/*--This is where the contentens in the page 
+is displayed and every thing regarding the size 
+and alignment of the main area can be done here--*/
+.Mcontainer {
+  transition: 0.4s;
+  top:0;
+  background-image:url(images/bglogo.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  width: 100%;
+  padding-top:20px;
+  text-align: left;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:12px;
+  font-weight:lighter;
+  color: #CCC;
+}
+/*------------MAIN CONTENT CONTAINER----------------*/
+.rept_main{
+	width:1200px;
+	height:550px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+	}
+.rept_heading{
+	font-size: 30px;
+	color: #262626;
+	font-family:"Arial";
+	font-weight:bold;
+	text-align:left;
+	align-items:center;
+	}
+
+.rept_head{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family:"Arial";
+	font-weight:bold;
+	background: #3B3E3F;
+	text-align:left;
+	padding-left:5PX;
+	}
+.rept_cont{
+	font-size: 14px;
+	color: #525151;
+	font-family:"Arial";
+	text-align:left;
+	padding-left:5PX;
+	background-color:#C3C3C3;
+	padding-top:2px;
+	}
+	
+.rept_date{
+	font-size: 12px;
+	color: #525151;
+	font-family:"Arial";
+	text-align: right;
+	padding-right:5px;
+	font-weight:bold;
+	background:url(images/Small_logo.png);
+	background-repeat:no-repeat;
+	background-position: right;
+	padding-right:40px;
+
+	}
+	.pat_head{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family:"Arial";
+	font-weight: 500;
+	background: #2973B9;
+	text-align:left;
+	padding-left:5PX;
+	height: 22px;
+	padding-top:5px;
+	}
+.pat_cont{
+	font-size: 14px;
+	color: #525151;
+	font-family:"Arial";
+	text-align:left;
+	padding-left:5PX;
+	background-color:#C3C3C3;
+	padding-top:2px;
+	height: 22px;
+	padding-top:5px;
+	}
+.pat_otrcont{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family:"Arial";
+	font-weight: 500;
+	background: #2973B9;
+	text-align:left;
+	padding-left:5PX;
+	height: 22px;
+	padding-top:5px;
+	background-image:url(images/arrow.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	}
+	.pic_bg{
+	width:140px;
+	height:150px;
+	background-color:#C4CCDF;
+	background-image:url(images/pic_bg.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	align-content:center;
+	}
+	
+</style>

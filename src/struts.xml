@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="api" namespace="/api" extends="json-default">
+
+        <action name="employees" class="com.action.EmployeeAction">
+            <result type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+        
+        <action name="dashboardReport"
+                class="com.action.DashboardAction"
+                method="dashboardReport">
+            <result type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+
+    </package>
+</struts>
+

@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+}
+
+#nav-3 {
+  background: #3172B8;
+  margin-left:auto;
+  margin-right:auto;
+  height:30px;
+  padding-top:8px;
+  
+}
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #585858;
+  padding: 8px 10px;
+}

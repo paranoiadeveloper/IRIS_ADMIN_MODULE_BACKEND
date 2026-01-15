@@ -1,0 +1,20 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+
+
+.datetextbox{
+    background:  url('images/cal.gif') no-repeat scroll right center #FFFFFF;
+    dateFormat: "dd-mm-yyyy";
+    border: 1px solid #DDD;
+    width: 90px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    color: #593602;
+    float: left;
+     padding: 2px 2px;
+    outline: none;
+}

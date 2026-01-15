@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+ #Background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 827px;
+     height: 583px;
+     z-index:1;
+	 background:#FFFFFF;
+} 
+
+ #Layer5 
+{ 
+     left: 0px; 
+     top: 131px; 
+     position: absolute; 
+     width: 827px;
+     height: 413px;
+     z-index:2;
+	 background:#FFFFFF;
+	 background-image:url(../images/water.png);
+	  background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+	 
+	 
+} 
+
+ #Layer6 
+{ 
+     left: 0px; 
+     top: 527px; 
+     position: absolute; 
+     width: 827px;
+     height: 40px;
+     z-index:3;
+	 background:#FFFFFF;	 
+} 
+
+ #Layer4 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 827px;
+     height: 131px;
+     z-index:4;
+	 background:#FFFFFF;	 
+} 
+
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="portrait"] {
+  width: 21cm;
+  height: 14.8cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+ #Layer61 
+{ 
+    bottom:0;
+     position: fixed; 
+     width: 827px;
+     height: 40px;
+     
+	 background:#FFFFFF;	 
+} 
+
+ #Layer41
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: fixed; 
+     width: 827px;
+     height: 131px;
+     
+	 background:#FFFFFF;	 
+} 

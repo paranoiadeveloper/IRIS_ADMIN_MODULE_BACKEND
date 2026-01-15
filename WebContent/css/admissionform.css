@@ -1,0 +1,734 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.modern-p-form .p-form {
+    position: relative;
+    z-index: 0;
+}
+
+.modern-p-form .p-form-bg, .modern-p-form .p-form {
+    background: #fff none repeat scroll 0 0;
+}
+
+.modern-p-form .p-form-md {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.modern-p-form .p-inset, .modern-p-form .p-shadowed, .modern-p-form .p-bordered {
+    padding: 20px;
+}
+
+.modern-p-form .p-shadowed {
+    box-shadow: 0 0 10px #cecece;
+}
+
+.modern-p-form .p-title {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.modern-p-form .p-title-line, .modern-p-form .p-title-step-line, .modern-p-form .p-title-side {
+    background-color: #333;
+    color: #fff;
+    display: block;
+}
+
+.modern-p-form .p-title-line, .modern-p-form .p-title-step-line {
+    padding: 3px 15px 5px;
+}
+
+.p-form-modern-purple .p-title-line, .p-form-modern-purple .p-title-step-line, .p-form-modern-purple .p-title-side {
+    background-color: #b33996;
+}
+
+.modern-p-form .p-title .p-title-step-line, .modern-p-form .p-title .p-title-line {
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+
+.modern-p-form .p-inset .p-title .p-title-line, .modern-p-form .p-shadowed .p-title .p-title-line {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modern-p-form .p-inset .p-subtitle .p-title-side, .modern-p-form .p-shadowed .p-subtitle .p-title-side, .modern-p-form .p-inset .p-title .p-title-line, .modern-p-form .p-shadowed .p-title .p-title-line {
+    margin-left: -7px;
+    margin-right: -6px;
+}
+
+.modern-p-form .p-inset > .p-title:first-child .p-title-line, .modern-p-form .p-shadowed > .p-title:first-child .p-title-line, .modern-p-form .p-bordered > .p-title:first-child .p-title-line {
+    margin-top: -5px;
+}
+
+.p-form-modern-purple .p-title, .p-form-modern-purple .p-subtitle {
+    color: #b33996;
+}
+
+.modern-p-form .p-subtitle {
+    font-size: 19px;
+    line-height: 24px;
+    margin: 15px 0 20px;
+}
+
+.modern-p-form .p-title, .modern-p-form .p-subtitle {
+    clear: both;
+    color: #333;
+}
+
+.modern-p-form.text-left > .p-title-side, .modern-p-form .p-inset.text-left > .p-title-side, .modern-p-form .p-shadowed.text-left > .p-title-side, .modern-p-form .p-bordered.text-left > .p-title-side, .modern-p-form .p-subtitle.text-left > .p-title-side, .modern-p-form .p-inset .p-subtitle.text-left > .p-title-side, .modern-p-form .p-shadowed .p-subtitle.text-left > .p-title-side, .modern-p-form .p-bordered .p-subtitle.text-left > .p-title-side {
+    padding-right: 15px;
+}
+
+/* .modern-p-form .p-inset .p-subtitle .p-title-side, .modern-p-form .p-shadowed .p-subtitle .p-title-side, .modern-p-form .p-inset .p-title .p-title-line, .modern-p-form .p-shadowed .p-title .p-title-line {
+    margin-left: -20px;
+    margin-right: -20px;} */
+	
+.modern-p-form .text-center > .p-title-step-line, .modern-p-form .text-left > .p-title-step-line, .modern-p-form .text-right > .p-title-step-line, .modern-p-form .text-center > .p-title-side, .modern-p-form .text-left > .p-title-side, .modern-p-form .text-right > .p-title-side, .modern-p-form .text-center > .p-title-line, .modern-p-form .text-left > .p-title-line, .modern-p-form .text-right > .p-title-line {
+    display: inline-block;
+    vertical-align: top;
+}
+.p-form-modern-purple .p-title-line, .p-form-modern-purple .p-title-step-line, .p-form-modern-purple .p-title-side {
+   background-color: #1bb185;
+}
+.modern-p-form .p-title-side {
+    padding: 3px 25px 5px;
+}
+.modern-p-form .p-title-line, .modern-p-form .p-title-step-line, .modern-p-form .p-title-side {
+    
+    color: #fff;
+    display: block;
+}
+
+.modern-p-form {
+    color: #666;
+    cursor: default;
+    /*font-family: "Roboto";*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: left;
+	margin-bottom:45px;
+}
+
+.modern-p-form .form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.modern-p-form label {
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.modern-p-form .input-group {
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+
+.modern-p-form .p-has-icon .form-control {
+    padding-left: 56px;
+}
+.modern-p-form .input-group .form-control {
+    background-color: transparent !important;
+    
+}
+.modern-p-form .form-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #666;
+    height: 44px;
+    line-height: 20px;
+    outline: medium none;
+    padding: 11px 12px;
+}
+.modern-p-form .form-control, .modern-p-form .input-group-addon {
+    border-radius: 0;
+}
+.modern-p-form .btn, .modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-radio-color .p-color-block, .modern-p-form .p-field-cb, .modern-p-form .form-control, .modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .p-popup .p-form, .modern-p-form .p-rating .p-field-cancel, .modern-p-form .nav-tabs > li > label {
+    transition: all 0.2s linear 0s;
+}
+
+.modern-p-form .form-control::-moz-placeholder {
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+.modern-p-form .input-group-state, .modern-p-form .input-group-state * {
+    pointer-events: none;
+}
+.modern-p-form .input-group-state {
+    color: #8c8c8c;
+    display: table-cell;
+    font-size: 11px;
+    height: 0;
+    vertical-align: top;
+    width: 1px;
+}
+
+.modern-p-form .p-field-cb {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.modern-p-form .p-field-cb {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.modern-p-form .btn, .modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-radio-color .p-color-block, .modern-p-form .p-field-cb, .modern-p-form .form-control, .modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .p-popup .p-form, .modern-p-form .p-rating .p-field-cancel, .modern-p-form .nav-tabs > li > label {
+    transition: all 0.2s linear 0s;
+}
+
+.modern-p-form .p-has-icon .input-group-icon {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    height: 44px;
+    width: 44px;
+}
+.modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+.modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    display: block;
+    line-height: 42px;
+    text-align: center;
+}
+.modern-p-form .input-group-addon, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    color: #666;
+}
+.modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .input-group-addon, .modern-p-form .input-group-btn {
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+.modern-p-form .btn, .modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-radio-color .p-color-block, .modern-p-form .p-field-cb, .modern-p-form .form-control, .modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .p-popup .p-form, .modern-p-form .p-rating .p-field-cancel, .modern-p-form .nav-tabs > li > label {
+    transition: all 0.2s linear 0s;
+}
+
+.modern-p-form .form-group .fa-pencil-square-o, .modern-p-form .form-group .fa-pencil-square, .modern-p-form .form-group .fa-search {
+    left: 1px;
+}
+.modern-p-form .fa {
+    position: relative;
+}
+
+.modern-p-form .input-group {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.modern-p-form .p-custom-arrow select {
+    -moz-appearance: none;
+    padding-right: 0;
+}
+.modern-p-form select.form-control {
+    cursor: pointer;
+}
+.modern-p-form .form-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #666;
+    height: 44px;
+    line-height: 20px;
+    outline: medium none;
+    padding: 11px 12px;
+}
+.modern-p-form .form-control, .modern-p-form .input-group-addon {
+    border-radius: 0;
+}
+.modern-p-form .btn, .modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-radio-color .p-color-block, .modern-p-form .p-field-cb, .modern-p-form .form-control, .modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .p-popup .p-form, .modern-p-form .p-rating .p-field-cancel, .modern-p-form .nav-tabs > li > label {
+    transition: all 0.2s linear 0s;
+}
+
+.modern-p-form select.form-control option {
+    background-color: #fff;
+    line-height: 20px;
+    padding: 3px 12px;
+}
+
+.p-form-modern-purple .form-control:focus ~ .input-group-icon, .p-form-modern-purple .form-control:hover ~ .input-group-icon, .p-form-modern-purple .input-group:hover .input-group-icon, .p-form-modern-purple .p-file-wrap [type="file"]:hover ~ .input-group .input-group-icon, .p-form-modern-purple .form-control:focus ~ .p-select-arrow, .p-form-modern-purple .form-control:hover ~ .p-select-arrow, .p-form-modern-purple .input-group:hover .p-select-arrow, .p-form-modern-purple .p-file-wrap [type="file"]:hover ~ .input-group .p-select-arrow, .p-form-modern-purple .form-control:focus ~ .input-group-addon .p-addon-bg, .p-form-modern-purple .form-control:hover ~ .input-group-addon .p-addon-bg, .p-form-modern-purple .input-group:hover .input-group-addon .p-addon-bg, .p-form-modern-purple .p-file-wrap [type="file"]:hover ~ .input-group .input-group-addon .p-addon-bg {
+    background-color: #b33996;
+    border-color: #942f7c;
+}
+.modern-p-form .form-control:focus ~ .input-group-icon, .modern-p-form .form-control:hover ~ .input-group-icon, .modern-p-form .input-group:hover .input-group-icon, .modern-p-form .p-file-wrap [type="file"]:hover ~ .input-group .input-group-icon, .modern-p-form .form-control:focus ~ .p-select-arrow, .modern-p-form .form-control:hover ~ .p-select-arrow, .modern-p-form .input-group:hover .p-select-arrow, .modern-p-form .p-file-wrap [type="file"]:hover ~ .input-group .p-select-arrow, .modern-p-form .form-control:focus ~ .input-group-addon .p-addon-bg, .modern-p-form .form-control:hover ~ .input-group-addon .p-addon-bg, .modern-p-form .input-group:hover .input-group-addon .p-addon-bg, .modern-p-form .p-file-wrap [type="file"]:hover ~ .input-group .input-group-addon .p-addon-bg {
+    background-color: #333;
+    border-color: #474747;
+    color: #fff;
+}
+.modern-p-form .p-custom-arrow .p-select-arrow {
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    height: 44px;
+    width: 44px;
+}
+.modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+.modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    display: block;
+    line-height: 42px;
+    text-align: center;
+}
+.modern-p-form .input-group-addon, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow {
+    color: #666;
+}
+.modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .input-group-addon, .modern-p-form .input-group-btn {
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+.modern-p-form .btn, .modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-radio-color .p-color-block, .modern-p-form .p-field-cb, .modern-p-form .form-control, .modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .p-popup .p-form, .modern-p-form .p-rating .p-field-cancel, .modern-p-form .nav-tabs > li > label {
+    transition: all 0.2s linear 0s;
+}
+
+
+
+.modern-p-form .p-field-cb {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.modern-p-form .p-field-cb {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.modern-p-form .input-group {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.modern-p-form textarea.form-control {
+    height: 106px;
+    min-height: 46px;
+    resize: none !important;
+}
+.modern-p-form .form-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #666;
+    height: 44px;
+    line-height: 20px;
+    outline: medium none;
+    padding: 11px 12px;
+}
+.modern-p-form .form-control, .modern-p-form .input-group-addon {
+    border-radius: 0;
+}
+
+.modern-p-form .p-buttons .btn {
+    min-width: 90px;
+	
+}
+/* .p-form-modern-purple .btn {
+    background-color: #a680c4;
+}
+ */
+/* .modern-p-form .btn {
+   
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 44px;
+    padding: 0 18px;
+} */
+
+.p-form-modern-purple .form-control:focus ~ .input-group-icon, .p-form-modern-purple .form-control:hover ~ .input-group-icon, .p-form-modern-purple .input-group:hover .input-group-icon, .p-form-modern-purple .p-file-wrap [type="file"]:hover ~ .input-group .input-group-icon, .p-form-modern-purple .form-control:focus ~ .p-select-arrow, .p-form-modern-purple .form-control:hover ~ .p-select-arrow, .p-form-modern-purple .input-group:hover .p-select-arrow, .p-form-modern-purple .p-file-wrap [type="file"]:hover ~ .input-group .p-select-arrow, .p-form-modern-purple .form-control:focus ~ .input-group-addon .p-addon-bg, .p-form-modern-purple .form-control:hover ~ .input-group-addon .p-addon-bg, .p-form-modern-purple .input-group:hover .input-group-addon .p-addon-bg, .p-form-modern-purple .p-file-wrap [type="file"]:hover ~ .input-group .input-group-addon .p-addon-bg {
+   background-color: #1bb185;
+   border-color: #1bb185;
+}
+
+
+.modern-p-form .pt-form-inline .p-radioswitch, .modern-p-form .pt-form-inline .p-switch, .modern-p-form .pt-form-inline .radio, .modern-p-form .pt-form-inline .checkbox {
+    margin-right: 20px;
+}
+
+.modern-p-form .pt-form-inline .p-radioswitch, .modern-p-form .pt-form-inline .p-switch, .modern-p-form .pt-form-inline .radio, .modern-p-form .pt-form-inline .checkbox {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.modern-p-form .radio label, .modern-p-form .checkbox label, .modern-p-form .p-switch label, .modern-p-form .p-radioswitch label {
+    color: #666;
+    cursor: pointer;
+    line-height: 24px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.checkbox label, .radio label {
+    cursor: pointer;
+    font-weight: 400;
+    margin-bottom: 0;
+    min-height: 20px;
+    padding-left: 20px;
+}
+label {
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+.modern-p-form .p-check-active-icon, .modern-p-form .p-check-icon, .modern-p-form .p-check-point, .modern-p-form .p-switch-icon {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: top;
+}
+.modern-p-form .p-check-active-icon, .modern-p-form .p-check-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.modern-p-form [type="radio"] ~ .p-check-icon .p-check-block, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-block, .modern-p-form [type="radio"] ~ .p-check-point, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-point, .modern-p-form [type="radio"] ~ .p-check-icon .p-check-block::after, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-block::after, .modern-p-form [type="radio"] ~ .p-check-point::after, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-point::after {
+    border-radius: 50%;
+}
+
+.modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-switch-icon::after {
+    background-color: #333;
+    border: 0 none;
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+}
+.p-form-modern-purple .p-check-block::after {
+    background-color: #1c67a9;
+    border-color: #1c67a9;
+}
+.modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after {
+    content: "";
+    opacity: 0;
+}
+.modern-p-form .btn, .modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after, .modern-p-form .p-radio-color .p-color-block, .modern-p-form .p-field-cb, .modern-p-form .form-control, .modern-p-form .input-group-btn .btn, .modern-p-form .input-group-addon .p-addon-bg, .modern-p-form .input-group-icon, .modern-p-form .p-select-arrow, .modern-p-form .p-popup .p-form, .modern-p-form .p-rating .p-field-cancel, .modern-p-form .nav-tabs > li > label {
+    transition: all 0.2s linear 0s;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+.modern-p-form [type="radio"] ~ .p-check-icon .p-check-block, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-block, .modern-p-form [type="radio"] ~ .p-check-point, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-point, .modern-p-form [type="radio"] ~ .p-check-icon .p-check-block::after, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-block::after, .modern-p-form [type="radio"] ~ .p-check-point::after, .modern-p-form .p-check-next[type="radio"] ~ .p-check-container .p-check-point::after {
+    border-radius: 50%;
+}
+.modern-p-form .p-check-block, .modern-p-form .p-file-wrap [type="file"], .modern-p-form .p-preview-bg, .modern-p-form .p-no-preview, .modern-p-form .p-preview, .modern-p-form .p-preview * {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.modern-p-form .p-check-block {
+    background-color: #fff;
+    border: 2px solid #666;
+}
+
+.modern-p-form .pt-form-inline .p-radioswitch, .modern-p-form .pt-form-inline .p-switch, .modern-p-form .pt-form-inline .radio, .modern-p-form .pt-form-inline .checkbox {
+    margin-right: 20px;
+}
+.modern-p-form .pt-form-inline .p-radioswitch, .modern-p-form .pt-form-inline .p-switch, .modern-p-form .pt-form-inline .radio, .modern-p-form .pt-form-inline .checkbox {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+.modern-p-form .p-radioswitch + .p-radioswitch, .modern-p-form .p-switch + .p-switch, .modern-p-form .radio + .radio, .modern-p-form .checkbox + .checkbox {
+    margin-top: -2px;
+}
+.modern-p-form .radio, .modern-p-form .checkbox, .modern-p-form .p-switch, .modern-p-form .p-radioswitch {
+    margin-top: 10px;}
+	
+
+.modern-p-form .p-check-block::after, .modern-p-form .p-check-point::after {
+    content: "";
+    opacity: 0;
+}
+
+.modern-p-form .checkbox [type="checkbox"], .modern-p-form .radio [type="radio"], .modern-p-form .p-switch [type="checkbox"], .modern-p-form .p-radioswitch [type="radio"] {
+    height: 24px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    width: 24px;
+}
+
+.modern-p-form .p-check-next:checked ~ .p-check-container .p-check-icon .p-check-block::after, .modern-p-form *:checked ~ .p-check-icon .p-check-block::after, .modern-p-form .p-check-next:checked ~ .p-check-container .p-check-point::after, .modern-p-form *:checked ~ .p-check-point::after {
+    filter: none;
+    opacity: 1;
+}
+
+.p-form-modern-purple .p-check-next:checked ~ .p-check-container .p-check-icon .p-check-block, .p-form-modern-purple *:checked ~ .p-check-icon .p-check-block {
+    border-color: #1c67a9;
+}
+
+.service-heading {
+	margin: 15px 0;
+	text-transform: none
+}
+
+.text-muted {
+	text-align:justify;
+}
+
+#services{
+	margin-bottom: 95px;}
+
+#services1{}
+
+
+
+
+
+/*
+.file-upload .file-select {
+    display: block;
+    border: 1px solid #dce4ec;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+
+.file-upload .file-select .file-select-button {
+    background: #51BFD4;
+    padding: 0 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+.file-upload .file-select .file-select-name {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.file-upload .file-select input[type=file] {
+    z-index: 100;
+    
+    width: 100%;
+    
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+*/
+
+#chooseFile{
+    display: inline-block;
+}
+
+
+.hd{
+    padding: 32px 10px;
+    text-align: center;
+    color: #1bb185;
+    font-weight: bold;
+}
+
+.pp{
+    height: 100px;
+    /*background: #fff;*/
+    padding: 21px 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 315px){
+.pp{
+    height: auto;
+    /*background: #fff;*/
+    padding: 21px 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+.pp{
+    height: auto;
+    /*background: #fff;*/
+    padding: 21px 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    margin-top: 190px;
+}
+
+}
+
+.lt{
+    padding-left: 10px !important;
+}
+
+.im{
+    padding: 0 13px 9px;
+    font-size: 16px;
+}
+
+.crti{
+
+    height: 147px;
+    padding: 12px 0px 0 0px;
+    border: 1px solid #ccc;
+    margin-bottom: 19px;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 315px){
+.crti{
+
+    height: auto;
+    padding: 12px 0px 0 0px;
+    border: 1px solid #ccc;
+    margin-bottom: 19px;
+}
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 768px){
+
+ .crti{
+
+    height: auto;
+    padding: 12px 0px 0 0px;
+    border: 1px solid #ccc;
+    margin-bottom: 19px;
+    margin-top: 82px;
+}
+
+}
+
+
+.cd{
+    color: #1bb185;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 26px 0 0 0;
+}
+
+
+/*label{
+    position: relative;
+    cursor: pointer;
+    color: #666;
+    font-size: 30px;
+}*/
+
+[type="checkbox"], input[type="radio"]{
+    /*position: absolute;*/
+    right: 9000px;
+}
+
+/*Check box*/
+[type="checkbox"] + .label-text:before{
+    content: "\f096";
+    font-family: "FontAwesome";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing:antialiased;
+    width: 1em;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+[type="checkbox"]:checked + .label-text:before{
+    content: "\f14a";
+    color: #1bb185;
+    animation: effect 250ms ease-in;
+}
+
+[type="checkbox"]:disabled + .label-text{
+    color: #aaa;
+}
+
+[type="checkbox"]:disabled + .label-text:before{
+    content: "\f0c8";
+    color: #ccc;
+}
+
+
+@keyframes effect{
+    0%{transform: scale(0);}
+    25%{transform: scale(1.3);}
+    75%{transform: scale(1.4);}
+    100%{transform: scale(1);}
+}
+
+.form-check{
+    /*text-align: center;*/
+
+
+}
+.label-text{
+    font-size: 17px;
+    line-height: 38px;
+
+}
+
+.abt{
+    position: absolute;
+}
+
+.text-right{
+    text-align: center;
+}
+
+
+
+.applcation-form{
+    margin-top: 90px;
+}
+
+.rot {
+
+    transform: rotate(105deg);
+
+}
+
+
+
+.clr{
+   color: #ff0303;
+}

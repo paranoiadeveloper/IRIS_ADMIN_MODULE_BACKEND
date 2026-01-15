@@ -1,0 +1,188 @@
+/*
+Theme Name: Dkn Business
+Author: Eleazar Dan S. Biscaro
+Aurthor url: http://danbiscaro.com
+Template url: http://dkntemplates.com
+Version: 1 
+*/
+
+/*** Reset ***/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { background:  border: 0; font-size: 88%; margin: 0; outline: 0; padding:1px; }
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none; }
+:focus { outline: 0; }
+img { vertical-align: bottom; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*** Clearfix ***/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0; }
+.clear { clear: both; }
+
+/*** Positioning and Alignment ***/
+.fl { float: left; }
+.fr { float: center; font-family:verdana;font-size: 10.5px;}
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+
+img.left { float: left; margin-right: 10px; }
+
+/*** General Settings ***/
+body { background: #495968 url(../images/) repeat-x; color: #4a4747; font-family: Helvetica, Arial, sans-serif; font-size: 12px; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; margin-bottom: 15px; }
+h1 { color: #4a4747; font-family: calibri; font-size: 18px; }
+h2 { color: #4a4747; font-family: Georgia, serif; font-size: 14px; }
+p { margin: 0 0 15px 0; }
+a { color: #568DB5; font-size: 14px; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header, footer, section, aside, nav, article { display: }
+
+#wrapper { 
+	background: #ffffff; 
+	margin: 15px auto; 
+	padding: 10px; 
+	width: 940px; 
+        height: 900px;
+	
+	/* Rounded Corner */
+	
+}
+
+/*** Header ***/
+#header {
+	background: #161d27 url(../images/bg-header12345.jpg);
+	height: 110px;
+	margin-bottom: 3px;
+}
+
+/*** Logo ***/
+#logo { 
+	float: left;
+	margin: 70px 50px 0px 50px;
+}
+#logo h1 {
+	color: #e6e5e5;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0px;
+}
+#logo h1 a {
+	color: #e6e5e5;
+	font-style: normal;
+}
+#logo p {
+	color: #deff42;
+	margin: 0px;
+      font-family: verdana,sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+/*** Nav ***/
+#nav {
+	float: right;
+	margin-top: -90px;
+}
+#nav li {
+	display: inline;
+	margin-right: 35px;
+}
+#nav li a {
+	color: #e6e5e5;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+}
+#nav li a:hover,
+#nav li.active a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*** Banner ***/
+#banner {
+	height: 180px;
+	margin-bottom: 15px;
+	position: relative;
+}
+#banner h1 {
+	color: #e6e5e5;
+	font-family: Georgia, serif;
+	font-size: 36px;
+	font-style: italic;
+	left: 30px;
+	position: absolute;
+	top: 68px;
+}
+#banner h1 span {
+	display: block;
+	margin-left: 30px;
+}
+
+/*** Main Body ***/
+#main-body {
+
+}
+
+/*** Sidebar ***/
+#sidebar  
+{
+	float: left;
+	width: 240px;
+}
+
+#sidebar article { margin-bottom: 15px; }
+
+/*** Content ***/
+#content {
+	border-left: 1px solid #;
+	float: right;
+	min-height: 300px;
+	padding-left: 15px;
+	width: 670px;
+}
+
+#content article {
+	margin-bottom: 25px;
+	overflow: hidden;
+
+	padding-left: -25px;
+}
+
+#content .column {
+	width: 500px;
+}
+
+/*** Footer ***/
+#footer {
+	background: url(../images/bg-footer.jpg) repeat-x;
+	color: #ffffff;
+	height: 18px;
+	line-height: 15px;
+	margin-top: 5px;
+	overflow: hidden;
+	padding-bottom:0px;
+}
+#footer span {
+	padding: 0px 355px;
+}
+#footer a {
+	color: #ffffff;
+	font-style:italic;
+}
+
+.author { 
+	color: #ffffff; 
+	text-align: center; 
+}
+.author a { 
+	color: #ffffff; 
+	font-style: normal;
+	font-weight: bold; 
+}
